@@ -1,0 +1,27 @@
+<!doctype html>  
+<html lang="en">
+<head>
+  <title>Flask+OpenCV Streaming Video</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
+      grid-gap: 10px;
+    }
+    .grid-item {
+      border: none;
+    }
+  </style>
+  <meta http-equiv="refresh" content="60">  <!-- 每分鐘重新整理 -->
+</head>
+<body>
+  <h3>Pictures Streaming</h3>
+  <div class="grid-container">
+    {% for camera_index in camera_urls %}
+    <div class="grid-item">
+      <img src="{{ url_for('video_feed', camera_index=camera_index) }}">
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>
