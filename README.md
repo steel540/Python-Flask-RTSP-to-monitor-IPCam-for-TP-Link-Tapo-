@@ -1,7 +1,8 @@
 # 利用Python-Flask結合RTSP協定實現IPCam觀看的多平台化(TP-Link,Tapo)
 
-Cover: image/structure%201.png
-Created: June 25, 2023 7:02 PM
+By combining the RTSP protocol and Python programming, we can overcome the limitation of only being able to view surveillance footage through a mobile app. This allows users to access and control IPCams on their computers, providing a richer visual experience and more convenient operation.
+
+Furthermore, integrating the RTSP protocol and Python programming enables the fusion of IPCams with artificial intelligence technologies, bringing more potential to applications. For example, utilizing computer vision techniques to analyze and recognize the images from IPCams can enable functions such as intelligent monitoring, object detection, or facial recognition. These applications expand the capabilities of IPCams, making them a more powerful and intelligent security surveillance solution.
 
 # 動機
 
