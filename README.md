@@ -113,3 +113,11 @@ Step D:  此IP為您可以觀看網址
 驗證成功畫面(如下)
 
 ![view.jpeg](image/view.jpeg)
+
+
+2x2畫面(如下)
+streaming_multi-video.py
+
+![multiview.jpg](image/multiview.jpg)
+
+
